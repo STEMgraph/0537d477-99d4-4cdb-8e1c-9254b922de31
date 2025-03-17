@@ -8,24 +8,19 @@
 --->
 
 # Learning Through Exercises
-<text x="10" y="50" font-size="24" fill="var(--primary-color, yellow)">
-  Adaptive Text
-</text>
 
+Dieses SVG bleibt gut sichtbar, egal ob der Hintergrund dunkel oder hell ist.
+
+## SVG-Grafik
+
+```xml
 <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    :root {
-      --primary-color: #FFD700; /* Gold als Default */
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --primary-color: #00FFFF; /* Cyan für dunkle Themes */
-      }
-    }
-  </style>
-  <circle cx="50" cy="50" r="40" fill="var(--primary-color)" stroke="black" stroke-width="3"/>
-  <rect x="30" y="30" width="40" height="40" fill="none" stroke="var(--primary-color)" stroke-width="3"/>
+  <!-- Äußere schwarze Kontur -->
+  <circle cx="50" cy="50" r="40" fill="gold" stroke="black" stroke-width="5"/>
+  <!-- Innere weiße Kontur -->
+  <circle cx="50" cy="50" r="35" fill="gold" stroke="white" stroke-width="3"/>
 </svg>
+
 
 
 ## 1) Introduction
