@@ -12,13 +12,9 @@
 Dieses SVG bleibt gut sichtbar, egal ob der Hintergrund dunkel oder hell ist.
 
 ## SVG-Grafik
+## Adaptive SVG für alle Hintergründe
 
-<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Äußere schwarze Kontur -->
-  <circle cx="50" cy="50" r="40" fill="gold" stroke="black" stroke-width="5"/>
-  <!-- Innere weiße Kontur -->
-  <circle cx="50" cy="50" r="35" fill="gold" stroke="white" stroke-width="3"/>
-</svg>
+<img src="./image.svg" width="100" alt="Adaptive SVG">
 
 
 
