@@ -12,6 +12,21 @@
   Adaptive Text
 </text>
 
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --primary-color: #FFD700; /* Gold als Default */
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary-color: #00FFFF; /* Cyan für dunkle Themes */
+      }
+    }
+  </style>
+  <circle cx="50" cy="50" r="40" fill="var(--primary-color)" stroke="black" stroke-width="3"/>
+  <rect x="30" y="30" width="40" height="40" fill="none" stroke="var(--primary-color)" stroke-width="3"/>
+</svg>
+
 
 ## 1) Introduction
 Learning by doing is one of the most effective methods to acquire new knowledge and skills. Rather than passively consuming information, actively engaging in problem-solving fosters deeper understanding and long-term retention. By working through structured exercises, students can grasp complex concepts in a more intuitive and applicable way. This approach is particularly beneficial in technical fields like programming, mathematics, and engineering.
