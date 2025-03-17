@@ -8,6 +8,10 @@
 --->
 
 # Learning Through Exercises
+<text x="10" y="50" font-size="24" fill="var(--primary-color, yellow)">
+  Adaptive Text
+</text>
+
 
 ## 1) Introduction
 Learning by doing is one of the most effective methods to acquire new knowledge and skills. Rather than passively consuming information, actively engaging in problem-solving fosters deeper understanding and long-term retention. By working through structured exercises, students can grasp complex concepts in a more intuitive and applicable way. This approach is particularly beneficial in technical fields like programming, mathematics, and engineering.
